@@ -1,0 +1,3 @@
+/home/pankhuri/camViz/install/camviz/bin/camViz
+/home/pankhuri/camViz/install/camviz/share/jderobot/glade/camViz.glade
+/home/pankhuri/camViz/install/camviz/share/jderobot/conf/camViz.yml
