@@ -22,7 +22,7 @@ First check that you have the following dependencies installed. If not, you can 
 
 - Ubuntu 18.04 
 
-- JdeRobot base 
+- JdeRobot base (Not necessary)
 
 - ROS(Robot Operating System)
 
@@ -91,11 +91,15 @@ Branch 1: ROS1
 
 - Terminal 1
 
+   ```roscore```
+
+- Terminal 2
+
 Run any image publisher in ROS
 
 Ex: ```rosrun usb_cam usb_cam_node```
 
-- Terminal 2
+- Terminal 3
 
     ```bash
     cd camViz
@@ -107,7 +111,7 @@ Ex: ```rosrun usb_cam usb_cam_node```
     source /opt/ros/melodic/setup.bash
     ```
     ```bash
-    cd build/camViz 
+    cd build/camviz 
 
     ./camViz camViz.yml
     ```
