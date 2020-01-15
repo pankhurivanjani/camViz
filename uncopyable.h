@@ -19,49 +19,19 @@
  *
  */
 
-#ifndef CAMVIZ_VIEWER_H
-#define CAMVIZ_VIEWER_H
-
-#include <gtkmm.h>
-
-//#include <libglademm.h>
-
-#include <string>
-#include "imagecv.h"
+#ifndef UNCOPYABLE_COLORSPACES_H
+#define UNCOPYABLE_COLORSPACES_H
 
 
-namespace camViz{
-
-  class Viewer
-  {
+namespace colorspaces{
+  class Uncopyable{
   public:
-    Viewer();
-    ~Viewer();
-  
-    bool isVisible();
-
-    //! function that actually displays the image in a window
-    void display( cv::Mat imageRGB);
-    void displayFrameRate(int rate);
-
+    Uncopyable() {}
   private:
-    //Glib::RefPtr<Gnome::Glade::Xml> refXml;
-
-    Gtk::Image* gtkimage;
-    Gtk::Window* mainwindow;
-    Gtk::Label* fpslabel;
-    Gtk::Main gtkmain;
-  
-    //! display the frame rate of the received images
-
-      
-    //! time variables for calculating number of frames per second 
-    //IceUtil::Time currentFrameTime,oldFrameTime;
-    //http://wiki.ros.org/roscpp/Overview/Time
-    double fps;
-    int frameCount;
+    Uncopyable(const Uncopyable&);
+    Uncopyable& operator=(const Uncopyable&);
   };
-
 }//namespace
 
-#endif //CAMVIZ_VIEWER_H
+#endif //UNCOPYABLE_COLORSPACES_H
+
