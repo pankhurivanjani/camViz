@@ -8,7 +8,7 @@
 #include "translators.hpp"
 
 #include <iostream>  
-#include <opencv2/highgui/highgui.hpp>
+//#include <opencv2/highgui/highgui.hpp>
 #include <cv_bridge/cv_bridge.h>
 #include <time.h>
 
