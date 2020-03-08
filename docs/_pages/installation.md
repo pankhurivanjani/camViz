@@ -111,7 +111,7 @@ Ex: ```rosrun usb_cam usb_cam_node```
     source /opt/ros/melodic/setup.bash
     ```
     ```bash
-    cd build/camviz 
+    cd build/jderobot_camviz 
 
     ./camViz camViz.yml
     ```
