@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="3">
-  <name>camviz</name>
+  <name>jderobot_camviz</name>
   <version>0.1.0</version>
   <description>camViz package </description>
 
